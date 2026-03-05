@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: web-udbl-pod3
+spec:
+  containers:
+  - name: web-udbl
+    image: umbadieudonne913/web-udbl
+    ports:
+    - containerPort: 80
